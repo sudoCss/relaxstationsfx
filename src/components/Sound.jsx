@@ -54,7 +54,8 @@ const Sound = ({ soundName, soundSymbol, soundSource, isLast }) => {
         </Stack>
 
         <audio loop ref={playerRef} hidden>
-          <source src={soundSource} type="audio/ogg" />
+          <source src={soundSource.mp3} type="audio/mpeg" />
+          <source src={soundSource.ogg} type="audio/ogg" />
           <p>
             Your browser doesn't support HTML5 <code>audio</code> element.
           </p>

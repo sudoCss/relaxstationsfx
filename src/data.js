@@ -1,20 +1,34 @@
-import rain from "./assets/sounds/nature/rain.ogg";
-import birds from "./assets/sounds/nature/birds.ogg";
-import storm from "./assets/sounds/nature/storm.ogg";
-import stream from "./assets/sounds/nature/stream.ogg";
-import summerNight from "./assets/sounds/nature/summer-night.ogg";
-import waves from "./assets/sounds/nature/waves.ogg";
-import wind from "./assets/sounds/nature/wind.ogg";
+import rainOgg from "./assets/sounds/nature/rain.ogg";
+import rainMp3 from "./assets/sounds/nature/rain.mp3";
+import birdsOgg from "./assets/sounds/nature/birds.ogg";
+import birdsMp3 from "./assets/sounds/nature/birds.mp3";
+import stormOgg from "./assets/sounds/nature/storm.ogg";
+import stormMp3 from "./assets/sounds/nature/storm.mp3";
+import streamOgg from "./assets/sounds/nature/stream.ogg";
+import streamMp3 from "./assets/sounds/nature/stream.mp3";
+import summerNightOgg from "./assets/sounds/nature/summer-night.ogg";
+import summerNightMp3 from "./assets/sounds/nature/summer-night.mp3";
+import wavesOgg from "./assets/sounds/nature/waves.ogg";
+import wavesMp3 from "./assets/sounds/nature/waves.mp3";
+import windOgg from "./assets/sounds/nature/wind.ogg";
+import windMp3 from "./assets/sounds/nature/wind.mp3";
 
-import boat from "./assets/sounds/travel/boat.ogg";
-import city from "./assets/sounds/travel/city.ogg";
-import train from "./assets/sounds/travel/train.ogg";
+import boatOgg from "./assets/sounds/travel/boat.ogg";
+import boatMp3 from "./assets/sounds/travel/boat.mp3";
+import cityOgg from "./assets/sounds/travel/city.ogg";
+import cityMp3 from "./assets/sounds/travel/city.mp3";
+import trainOgg from "./assets/sounds/travel/train.ogg";
+import trainMp3 from "./assets/sounds/travel/train.mp3";
 
-import coffeeShop from "./assets/sounds/interiors/coffee-shop.ogg";
-import fireplace from "./assets/sounds/interiors/fireplace.ogg";
+import coffeeShopOgg from "./assets/sounds/interiors/coffee-shop.ogg";
+import coffeeShopMp3 from "./assets/sounds/interiors/coffee-shop.mp3";
+import fireplaceOgg from "./assets/sounds/interiors/fireplace.ogg";
+import fireplaceMp3 from "./assets/sounds/interiors/fireplace.mp3";
 
-import pinkNoise from "./assets/sounds/noise/pink-noise.ogg";
-import whiteNoise from "./assets/sounds/noise/white-noise.ogg";
+import pinkNoiseOgg from "./assets/sounds/noise/pink-noise.ogg";
+import pinkNoiseMp3 from "./assets/sounds/noise/pink-noise.mp3";
+import whiteNoiseOgg from "./assets/sounds/noise/white-noise.ogg";
+import whiteNoiseMp3 from "./assets/sounds/noise/white-noise.mp3";
 
 // ===================================== \\
 import rainSymbol from "./assets/icons/nature/rain-symbolic.svg";
@@ -50,7 +64,7 @@ export default [
           en: "Rain",
         },
         soundSymbol: rainSymbol,
-        soundSource: rain,
+        soundSource: { ogg: rainOgg, mp3: rainMp3 },
       },
       {
         soundId: 12,
@@ -59,7 +73,7 @@ export default [
           en: "Storm",
         },
         soundSymbol: stormSymbol,
-        soundSource: storm,
+        soundSource: { ogg: stormOgg, mp3: stormMp3 },
       },
       {
         soundId: 13,
@@ -68,7 +82,7 @@ export default [
           en: "Wind",
         },
         soundSymbol: windSymbol,
-        soundSource: wind,
+        soundSource: { ogg: windOgg, mp3: windMp3 },
       },
       {
         soundId: 14,
@@ -77,7 +91,7 @@ export default [
           en: "Waves",
         },
         soundSymbol: wavesSymbol,
-        soundSource: waves,
+        soundSource: { ogg: wavesOgg, mp3: wavesMp3 },
       },
       {
         soundId: 15,
@@ -86,7 +100,7 @@ export default [
           en: "Stream",
         },
         soundSymbol: streamSymbol,
-        soundSource: stream,
+        soundSource: { ogg: streamOgg, mp3: streamMp3 },
       },
       {
         soundId: 16,
@@ -95,7 +109,7 @@ export default [
           en: "Birds",
         },
         soundSymbol: birdsSymbol,
-        soundSource: birds,
+        soundSource: { ogg: birdsOgg, mp3: birdsMp3 },
       },
       {
         soundId: 17,
@@ -104,7 +118,7 @@ export default [
           en: "Summer Night",
         },
         soundSymbol: summerNightSymbol,
-        soundSource: summerNight,
+        soundSource: { ogg: summerNightOgg, mp3: summerNightMp3 },
       },
     ],
   },
@@ -122,7 +136,7 @@ export default [
           en: "Boat",
         },
         soundSymbol: boatSymbol,
-        soundSource: boat,
+        soundSource: { ogg: boatOgg, mp3: boatMp3 },
       },
       {
         soundId: 19,
@@ -131,7 +145,7 @@ export default [
           en: "City",
         },
         soundSymbol: citySymbol,
-        soundSource: city,
+        soundSource: { ogg: cityOgg, mp3: cityMp3 },
       },
       {
         soundId: 20,
@@ -140,7 +154,7 @@ export default [
           en: "Train",
         },
         soundSymbol: trainSymbol,
-        soundSource: train,
+        soundSource: { ogg: trainOgg, mp3: trainMp3 },
       },
     ],
   },
@@ -158,7 +172,7 @@ export default [
           en: "Coffee Shop",
         },
         soundSymbol: coffeeShopSymbol,
-        soundSource: coffeeShop,
+        soundSource: { ogg: coffeeShopOgg, mp3: coffeeShopMp3 },
       },
       {
         soundId: 22,
@@ -167,7 +181,7 @@ export default [
           en: "Fireplace",
         },
         soundSymbol: fireplaceSymbol,
-        soundSource: fireplace,
+        soundSource: { ogg: fireplaceOgg, mp3: fireplaceMp3 },
       },
     ],
   },
@@ -185,7 +199,7 @@ export default [
           en: "Pink Noise",
         },
         soundSymbol: pinkNoiseSymbol,
-        soundSource: pinkNoise,
+        soundSource: { ogg: pinkNoiseOgg, mp3: pinkNoiseMp3 },
       },
       {
         soundId: 24,
@@ -194,7 +208,7 @@ export default [
           en: "White Noise",
         },
         soundSymbol: whiteNoiseSymbol,
-        soundSource: whiteNoise,
+        soundSource: { ogg: whiteNoiseOgg, mp3: whiteNoiseMp3 },
       },
     ],
   },

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     legacy({
-      targets: ["defaults", "not IE 11", "chrome >= 40"],
+      targets: ["defaults", "not IE 11"],
     }),
   ],
   build: {
