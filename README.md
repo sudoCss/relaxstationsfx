@@ -1,6 +1,6 @@
 # Relax Station SFX
 
-[Blanket](https://github.com/rafaelmardojai/blanket/) clone made with [React JS](https://reactjs.org/) & [Material UI](https://mui.com/).
+[Blanket](https://github.com/rafaelmardojai/blanket/) clone made with [React JS](https://reactjs.org/) & [Material UI](https://mui.com/) for training purposes.
 
 ## Live demo
 You can see the live version of this code [here](https://relaxstationsfx.netlify.app).
